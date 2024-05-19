@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Capire come fare a scalare per i vari dispositivi e come si imposta -->
+        <meta name="Elaborato_Mercury_News">
+        <meta name="google" content="notranslate">
+        <link rel="stylesheet" href="main.css">
+        <title>Elaborato Mercury</title>
+        
+    </head>
+    
+    <body>
+        <header>
+            <div id="first-top">
+                 <!-- Flexbox con divizione in due box, contenuto allineato a seconda della posizione Inserire menu hamburger e destra login -->
+                    <div id="left-section">
+                        <!-- icona a hamburger -->
+                        <img id="menu-icon" src="images/icons8-menu-24.png" alt="menu">
+                        <h1 id="all-section">All Section</h1>
+                    </div>
+                    <div id="right-section">
+                            <button>Subscribe</button>
+                            <button>Log In</button>
+                        </div>
+            </div>
+            <div id="title-top">
+                <!-- diviso in tre sezioni per data titolo e vuoto -->
+                <div id="title-top-section">
+                    <div id="weather">
+                        <div>
+                            <h4>Maggio 2024</h4>
+                        </div> 
+                    </div>
+                    <div id="logo">
+                        <div>
+                            <h2 id="nome-logo">The Mercury News</h2>
+                        </div>
+                    </div>
+                    <div id="empty">
+                        <!-- div vuoto -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <!-- serie di sezioni per rimandare ad altre pagine e sotto linea di delimitazione -->
+            <ul class="first-list">
+                <li>
+                    <a href="#"> News </a>
+                </li>
+                <li>
+                    <a href="#"> Local </a>
+                </li>
+                <li>
+                    <a href="#"> Sport </a>
+                </li>
+                <li>
+                    <a href="#"> Obituaries </a>
+                </li>
+                <li>
+                    <a href="#"> Things to do </a>
+                </li>
+                <li>
+                    <a href="#"> Business </a>
+                </li>
+                <li>
+                    <a href="#"> Real Estate </a>
+                </li>
+                <li>
+                    <a href="#"> Opinion </a>
+                </li>
+                <li>
+                    <a href="#"> MarcketPlace </a>
+                </li>
+                <li>
+                    <a href="#"> e-Edition </a>
+                </li>
+            </ul>
+            <!-- Fare contenitore dove all'interno si ha la sezione di Trending slegata dalla lista di link di rimando, così da posizionarlri in modi differenti  -->
+            <div class="trending">
+                <ul id="trending-top">
+                     <li class="trending-title"><h3>TRENDING: </h3></li>
+                     <li><a href="#"> Dirt bikes, ATVs & parties taking over Franklin Park </a> </li>
+                     <li><a href="#"> KG: Grading Patriots & AFC East teams in the draft </a> </li>
+                     <li><a href="#"> Where great white sharks go most each year </a> </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="principal">
+            <!-- Corpo principale della pagina dove si ha il contenitore generale suddiviso in tre e dentro il flex con l'articolo prinicipale e la parte sotto con i vari articoli in piccolo con le foto --> 
+            
+            <div class="breaking-news">
+                <div class="container-breaking-news">
+                    <div class="title">
+                        <h4>BREAKING NEWS:</h4>
+                    </div>
+                    <div class="breaking-article">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div> 
+            </div>
+            
+            <div class="content-aside">   <!-- in questa classe si definiscono le regole di grid -->
+                <div class="content">
+                <table class="main-table">
+                    <tr>
+                        <td>
+                            <a href="#" class="link-article">
+                                <h1>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </h1>
+                            </a>
+                            <p class="minor-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </p>
+                        </td>
+                        <td>
+                            <a href="#">
+                                <img src="image/1.jpeg">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+                <div class="article-item1">
+                    <a href="#">
+                        <img src="image/2.jpeg" item="sunset" class="responsive-image" />
+                    </a>
+                    <h3>
+                        <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt </a>
+                    </h3>
+                </div>
+                <div class="article-item2">
+                <a href="#">
+                        <img src="image/3.jpeg" item="sea" class="responsive-image" />
+                    </a>
+                <h3>
+                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt </a>
+                </h3>
+                </div>
+                <div class="article-item3">
+                <a href="#">
+                        <img src="image/4.jpeg" item="forest" class="responsive-image" />
+                    </a>
+                    <h3>
+                        <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit  sed do eiusmod tempor incididunt </a>
+                    </h3>
+                </div>
+                <div class="article-item4">
+                <a href="#">
+                        <img src="image/5.jpeg" item="palm" class="responsive-image" />
+                    </a>
+                    <h3>
+                        <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt </a>
+                    </h3>   
+                </div>
+                <div class="aside">
+                <ul>
+                    <li class="headlines">
+                        <h3>LATEST HEADLINES</h3>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <b>Lorem ipsum dolor sit amet</b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <b>Duis aute irure dolor in reprehenderit in</b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <b>Voluptate velit esse cillum dolore eu fugiat nulla pariatur.</b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href>
+                            <b>Lorem ipsum dolor sit amet</b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <b>Duis aute irure dolor in reprehenderit in</b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <b>Voluptate velit esse cillum dolore eu fugiat nulla pariatur.</b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <b>Lorem ipsum dolor sit amet</b>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div>  
+    <!--    FINE GRID-LAYOUT -->
+            <div class="most-popular">
+                <p>RECOMMENDED FOR YOU</p>
+                <div class="left-column">
+                    <ul class="left-column-ul">
+                        <li>
+                            <a href="#">
+                                <span>1</span>
+                                <b>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>2</span>
+                                <b>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>3</span>
+                                <b>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>4</span>
+                                <b>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>5</span>
+                                <b>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</b>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-column">
+                    <ul class="right-column-ul">
+                        <li>
+                            <a href="#">
+                                <span>6</span>
+                                <b>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>7</span>
+                                <b>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>8</span>
+                                <b>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>9</span>
+                                <b>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>10</span>
+                                <b>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</b>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <h2 id="nome-logo-footer">The Mercury News</h2>
+                </div>
+                <ul class="footer-menu" id="top">
+                    <il id="news">
+                        <a href="#" id="title">NEWS ALERT
+                        </a>
+                        <span><a href="#"></a></span>
+                        <ul class="footer-menu">
+                            <il><a href="#"> Email Newsletters</a></il>
+                            <il><a href="#">Today's E-dition</a></il>
+                            <il><a href="#">Mobile App</a></il>
+                            <il><a href="#">Site Map</a></il>
+                        </ul>
+                    </il>
+                    <il id="marketplace">
+                        <a href="#" id="title">MARKETPLACE
+                        </a>
+                        <span><a href="#"></a></span>
+                        <ul class="footer-menu">
+                            <il><a href="#">Place</a></il>
+                            <il><a href="#">Place</a></il>
+                            <il><a href="#">Lottery</a></il>
+                        </ul>
+                    </il>
+                    <il id="contact">
+                        <a href="#" id="title">CONTACT
+                        </a>
+                        <span><a href="#"></a></span>
+                        <ul class="footer-menu">
+                            <il><a href="#">Digital</a></il>
+                            <il><a href="#">Join Us</a></il>
+                            <il><a href="#">Specila</a></il>
+                            <il><a href="#">Sponsor</a></il>
+                            <il><a href="#">Get Sponsor</a></il>
+                            <il><a href="#">Privacy</a></il>
+                            <il><a href="#">Access</a></il>
+                        </ul>
+                    </il>
+                    <il id="advertise">
+                        <a href="#" id="title">ADVERTISE
+                        </a>
+                        <span><a href="#"></a></span>
+                        <ul class="footer-menu">
+                            <il><a href="#">Network</a></il>
+                            <il><a href="#">Daily</a></il>
+                            <il><a href="#">Place</a></il>
+                            <il><a href="#">Public</a></il>
+                            <il><a href="#">Monster</a></il>
+
+                        </ul>
+                    </il>
+                    <il id="sub">
+                        <a href="#" id="title">SUBSCRIBE
+                        </a>
+                        <span><a href="#"></a></span>
+                        <ul class="footer-menu">
+                            <il><a href="#">Member</a></il>
+                            <il><a href="#">Menage</a></il>
+                            <il><a href="#">The Mercury</a></il>
+                            <il><a href="#">Archive</a></il>
+                        </ul>
+                    </il>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
