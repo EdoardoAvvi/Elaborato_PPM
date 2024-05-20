@@ -331,11 +331,13 @@ button{
 .most-popular .left-column{
 }
 
-.left-column-ul{
-    list-style: none;
+.left-column{
     float: left;
     max-width: 50%;
-    margin: 5px 0px;
+    margin: 5px 3px 5px 0px;
+}
+.left-column-ul{
+    list-style: none;
 }
 .left-column-ul span{
     display:inline-flex;
@@ -348,7 +350,7 @@ button{
 }
 .right-column-ul{
     list-style: none;
-    margin: 5px 0px;
+    margin: 5px 3px 5px 0px;
 }
 
 .right-column-ul span{
@@ -465,7 +467,7 @@ footer #title{
     .first-list li{
         display: none;
     }
-    #all-section{
+    #left-section{
         display: none;
     }
     #right-section{
@@ -478,7 +480,19 @@ footer #title{
         max-width: 45%;
         float: left;
         margin-right: 8px;
-    } 
+    }
+    .left-column{
+        max-width: 100%;
+        margin: 5px 3px 5px 0px;
+    }
+    .right-column{
+        max-width: 100%;
+        margin: 5px 3px 5px 0px;
+    }
+    .right-column-ul{
+        list-style: none;
+        margin: 5px 3px 5px 0px;
+    }
     .most-popular{
         margin: 0 auto;
         width: 98%;
@@ -494,7 +508,7 @@ footer #title{
     .first-list li{
         display: none;
     }
-    #all-section{
+    #left-section{
         display: none;
     }
     #right-section{
@@ -517,6 +531,10 @@ footer #title{
             'article-item3 article-item4 '
             'aside aside';
         }
+    .right-column-ul{
+        list-style: none;
+        margin: 5px 3px 5px 0px;
+    }
     .footer-section{
         margin: 20px auto;
         width: 90%;
@@ -531,7 +549,7 @@ footer #title{
 
 @media only screen and (min-width: 800px){
     
-    #all-section{
+    #left-section{
         display: none;
     }
     #right-section{
@@ -577,6 +595,10 @@ footer #title{
             'article-item3 article-item4 '
             'aside aside';
     }
+    .right-column-ul{
+        list-style: none;
+        margin: 5px 3px 5px 0px;
+    }
     .footer-section{
         width: 90%;
     }
@@ -586,10 +608,10 @@ footer #title{
     
 }
 @media only screen and (min-width: 992px){
-    #all-section{
-        display: block;
+    #left-section{
+        display: flex;
     }
-       #right-section{
+    #right-section{
         display: block;
     }
     .breaking-news{
@@ -628,6 +650,10 @@ footer #title{
             'contentarea contentarea aside .'
             'article-item1 article-item2 aside .'
             'article-item3 article-item4 . .';
+    }
+    .right-column-ul{
+        list-style: none;
+        margin: 5px 3px 5px 0px;
     }
     .footer-section{
         width: 75%;
